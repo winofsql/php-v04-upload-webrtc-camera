@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+#size {
+    vertical-align: bottom;
+}
+
+#canvas {
+    display: none;
+}
+
+/* PC */
+@media screen and ( min-width:480px ) {
+    #content {
+        padding: 26px;
+    }
+    #button {
+        display: none;
+    }
+    #camera {
+        width: 480px;
+        height: 360px
+    }
+}
+/* スマホ */
+@media screen and ( max-width:479px ) {
+    #content {
+        padding: 0px;
+    }
+    #button {
+        display: block;
+        margin-bottom: 100px;
+    }
+    #camera {
+        width: 100%;
+    }
+}
