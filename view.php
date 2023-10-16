@@ -16,7 +16,10 @@
 
 </head>
 <body>
-<h3 class="alert alert-primary"><a href="./">カメラまたは動画より画像をアップロード</a></h3>
+<h3 class="alert alert-primary">
+    <a href="./">カメラまたは動画より画像をアップロード</a>
+    <a href=".." style="float:right;text-decoration:none;">📂</a>
+</h3>
 <div id="content">
     <form enctype="multipart/form-data"
             method="POST">
